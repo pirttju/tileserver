@@ -6,7 +6,7 @@
     "tileserver-gl-light": "^3.1.1"
   },
   "author": "Juhani Pirttilahti",
-  "license": "MIT",
+  "license": "GPL-3.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/pirttju/tileserver.git"
