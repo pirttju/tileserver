@@ -1,0 +1,14 @@
+{
+  "name": "tileserver",
+  "version": "0.2.0",
+  "description": "Vector map service",
+  "dependencies": {
+    "tileserver-gl-light": "^3.1.1"
+  },
+  "author": "Juhani Pirttilahti",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pirttju/tileserver.git"
+  }
+}
