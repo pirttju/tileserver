@@ -63,3 +63,8 @@ server {
     }
 }
 ```
+
+Run tileserver as a daemon process with PM2:
+```
+pm2 start
+```
