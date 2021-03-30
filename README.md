@@ -22,7 +22,7 @@ Clone https://github.com/pirttju/openrailwaymap-gl-style under the ./styles dire
 
 ### Fonts
 
-These fonts from Roboto font family are required:
+These fonts from the Roboto font family are required:
 - Roboto Bold
 - Roboto Light
 - Roboto Light Italic
