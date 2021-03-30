@@ -1,19 +1,19 @@
 {
   "options": {
     "paths": {
-      "root": "/data",
+      "root": "./",
       "fonts": "fonts",
+      "sprites": "sprites",
       "styles": "styles",
-      "mbtiles": "/data"
+      "mbtiles": "./"
     },
     "domains": [
-      "localhost:80",
-      "127.0.0.1:80"
+      "tile.raiteilla.fi"
     ]
   },
   "styles": {
     "orm-standard": {
-      "style": "styles/openrailwaymap-gl-style/standard.json",
+      "style": "openrailwaymap-gl-style/standard.json",
       "tilejson": {
         "bounds": [
           19.02427,
@@ -24,7 +24,7 @@
       }
     },
     "orm-maxspeed": {
-      "style": "styles/openrailwaymap-gl-style/maxspeed.json",
+      "style": "openrailwaymap-gl-style/maxspeed.json",
       "tilejson": {
         "bounds": [
           19.02427,
@@ -35,7 +35,7 @@
       }
     },
     "orm-standard-dark": {
-      "style": "styles/openrailwaymap-gl-style/standard-dark.json",
+      "style": "openrailwaymap-gl-style/standard-dark.json",
       "tilejson": {
         "bounds": [
           19.02427,
@@ -46,7 +46,7 @@
       }
     },
     "orm-maxspeed-dark": {
-      "style": "styles/openrailwaymap-gl-style/maxspeed-dark.json",
+      "style": "openrailwaymap-gl-style/maxspeed-dark.json",
       "tilejson": {
         "bounds": [
           19.02427,
