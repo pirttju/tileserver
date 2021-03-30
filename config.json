@@ -3,13 +3,9 @@
     "paths": {
       "root": "./",
       "fonts": "fonts",
-      "sprites": "sprites",
       "styles": "styles",
-      "mbtiles": "./"
-    },
-    "domains": [
-      "tile.raiteilla.fi"
-    ]
+      "mbtiles": "tiles"
+    }
   },
   "styles": {
     "orm-standard": {
