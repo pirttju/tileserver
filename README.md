@@ -6,9 +6,9 @@ This repository contains configuration for Tileserver GL to serve OpenRailwayMap
 ## Installing
 
 Install dependencies from NPM:
-´´´
+```
 npm install
-´´´
+```
 
 ### Vector tiles (MBTiles)
 
@@ -35,6 +35,6 @@ Download [protobuf-encoded glyphs](https://github.com/bravecow/fonts.pbf). Put t
 ## Running
 
 Run tileserver:
-´´´
+```
 npx tileserver-gl-light
-´´´
+```
