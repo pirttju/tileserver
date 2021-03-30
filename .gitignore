@@ -2,8 +2,8 @@
 node_modules/
 
 # misc
-fonts/*
-sprites/*
-styles/*
-tiles/*
-tiles.mbtiles
+fonts/
+sprites/
+styles/
+tiles/
+*.mbtiles
