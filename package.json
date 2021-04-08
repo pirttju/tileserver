@@ -1,12 +1,12 @@
 {
   "name": "tileserver",
   "version": "1.0.0",
-  "description": "Vector map service",
+  "description": "Vector map service using tileserver-gl-light",
   "dependencies": {
     "tileserver-gl-light": "^3.1.1"
   },
   "author": "Juhani Pirttilahti",
-  "license": "GPL-3.0",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/pirttju/tileserver.git"

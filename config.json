@@ -5,57 +5,47 @@
       "fonts": "fonts",
       "styles": "styles",
       "mbtiles": "tiles"
-    }
+    },
+    "serveAllFonts": true
   },
   "styles": {
-    "orm-standard": {
-      "style": "openrailwaymap-gl-style/standard.json",
+    "hel-osm-light": {
+      "style": "hel-osm-light/style.json",
       "tilejson": {
-        "bounds": [
-          19.02427,
-          59.28783,
-          31.60089,
-          70.09959
-        ]
+        "bounds": [7.0561838,53.8990929,36.8475102,71.3848787]
       }
     },
-    "orm-maxspeed": {
-      "style": "openrailwaymap-gl-style/maxspeed.json",
+    "hel-osm-bright": {
+      "style": "hel-osm-bright/style.json",
       "tilejson": {
-        "bounds": [
-          19.02427,
-          59.28783,
-          31.60089,
-          70.09959
-        ]
+        "bounds": [7.0561838,53.8990929,36.8475102,71.3848787]
       }
     },
-    "orm-standard-dark": {
-      "style": "openrailwaymap-gl-style/standard-dark.json",
+    "bright": {
+      "style": "osm-bright-gl-style/style.json",
       "tilejson": {
-        "bounds": [
-          19.02427,
-          59.28783,
-          31.60089,
-          70.09959
-        ]
+        "bounds": [7.0561838,53.8990929,36.8475102,71.3848787]
       }
     },
-    "orm-maxspeed-dark": {
-      "style": "openrailwaymap-gl-style/maxspeed-dark.json",
+    "dark-matter": {
+      "style": "dark-matter-gl-style/style.json",
       "tilejson": {
-        "bounds": [
-          19.02427,
-          59.28783,
-          31.60089,
-          70.09959
-        ]
+        "bounds": [7.0561838,53.8990929,36.8475102,71.3848787]
+      }
+    },
+    "railways": {
+      "style": "railways-gl-style/style.json",
+      "tilejson": {
+        "bounds": [7.0561838,53.8990929,36.8475102,71.3848787]
       }
     }
   },
   "data": {
     "v3": {
       "mbtiles": "tiles.mbtiles"
+    },
+    "railway": {
+      "mbtiles": "railway.mbtiles"
     }
   }
 }

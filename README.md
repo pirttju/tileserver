@@ -43,11 +43,6 @@ npx tileserver-gl-light
 
 Running tileserver behind a proxy is recommended. Sample configuration for Nginx:
 ```
-upstream tileserver {
-    server 127.0.0.1:8080;
-    keepalive: 64;
-}
-
 server {
     listen 80;
     listen [::]:80;
@@ -61,13 +56,9 @@ server {
     location / {
         proxy_set_header Host $host;
         proxy_set_header X-Forwarded-Proto $scheme;
+        proxy_set_header X-Forwarded-Host $host;
+        proxy_set_header X-Forwarded-Server $host;
         proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
-        proxy_pass http://tileserver;
+        proxy_pass http://localhost:8080;
     }
-}
-```
-
-Run tileserver as a daemon process with PM2:
-```
-pm2 start
 ```
